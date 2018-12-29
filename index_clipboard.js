@@ -14,6 +14,6 @@ if (process.argv.length > 2) {
 		var code = decodeURI(response.headers.location.replace(/^\/show\/(.*)$/i, "$1"));
 		let link = "https://9m.no/" + code;
 		console.log(link);
-		ncp.copy("some text", function () {});
+		ncp.copy(link, function () {});
 	});
 }
