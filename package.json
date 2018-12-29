@@ -1,6 +1,6 @@
 {
   "name": "9m.no-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "9m.no command line",
   "main": "index.js",
   "dependencies": {
@@ -29,8 +29,8 @@
   "bin": {
     "9mno": "./index",
     "9m": "./index",
-    "9mnoc": "./index-clipboard",
-    "9mc": "./index-clipboard"
+    "9mnoc": "./index_clipboard",
+    "9mc": "./index_clipboard"
   },
   "preferGlobal": "true"
 }
