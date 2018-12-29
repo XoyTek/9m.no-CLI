@@ -29,7 +29,7 @@
   "bin": {
     "9mno": "./index",
     "9m": "./index",
-    "9mnoc": "./iindex-clipboard",
+    "9mnoc": "./index-clipboard",
     "9mc": "./index-clipboardx"
   },
   "preferGlobal": "true"
