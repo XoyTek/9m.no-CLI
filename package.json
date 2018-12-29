@@ -30,7 +30,7 @@
     "9mno": "./index",
     "9m": "./index",
     "9mnoc": "./index-clipboard",
-    "9mc": "./index-clipboardx"
+    "9mc": "./index-clipboard"
   },
   "preferGlobal": "true"
 }
