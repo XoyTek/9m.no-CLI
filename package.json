@@ -1,0 +1,19 @@
+{
+	"name": "9m-cli",
+	"version": "1.0.0",
+	"description": "9m.no command line",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"request": "^2.88.0"
+	},
+	"bin": {
+		"9mno": "./index",
+		"9m": "./index"
+	},
+	"preferGlobal": "true"
+}
