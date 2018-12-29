@@ -1,19 +1,33 @@
 {
-	"name": "9m-cli",
-	"version": "1.0.0",
-	"description": "9m.no command line",
-	"main": "index.js",
-	"scripts": {
-		"start": "node index.js"
-	},
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"request": "^2.88.0"
-	},
-	"bin": {
-		"9mno": "./index",
-		"9m": "./index"
-	},
-	"preferGlobal": "true"
+  "name": "9m.no-cli",
+  "version": "1.0.0",
+  "description": "9m.no command line",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XoyTek/9m.no-CLI.git"
+  },
+  "keywords": [
+    "9m",
+    "9m.no",
+    "cli"
+  ],
+  "author": "Nicholas Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XoyTek/9m.no-CLI/issues"
+  },
+  "homepage": "https://github.com/XoyTek/9m.no-CLI#readme",
+  "bin": {
+    "9mno": "./index",
+    "9m": "./index"
+  },
+  "preferGlobal": "true"
 }
