@@ -1,6 +1,6 @@
 {
   "name": "9m.no-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "9m.no command line",
   "main": "index.js",
   "dependencies": {
