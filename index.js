@@ -10,8 +10,7 @@ if (process.argv.length > 2) {
         form: { url: url }
     };
     request(options, function (error, response, body) {
-        if (error)
-            throw new Error(error);
+        if (error) throw new Error(error);
         var code = decodeURI(response.headers.location.replace(/^\/show\/(.*)$/i, "$1"));
         console.log("https://9m.no/" + code);
     });
