@@ -2,3 +2,8 @@
 
 
 https://github.com/ehamberg/9m
+
+```bash
+$ 9m link
+$ 9mno link
+```
